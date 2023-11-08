@@ -3,7 +3,7 @@
 
 ![](resources/image8.gif)
 
-🔥 Deep learning has been widely explored in the ~~Computer Vision community~~ ~~NLP community~~ ~~AI community~~ **the Whole World** by storm. Here is a curated list of papers about deep learning  methods in Earth System, especially relating to weather prediction. It also contains frameworks for data-driven Numerical Weather Prediciton (NWP) training, tools to deploy weather prediction, courses and tutorials about Ai4earth and all publicly available Weather checkpoints and APIs.
+🔥 Deep learning has been widely explored in the ~~Computer Vision community~~ ~~NLP community~~ ~~AI community~~ **the Whole World** by storm. Here is a curated list of papers about deep learning  methods in Earth System, especially relating to weather prediction. It also contains frameworks for data-driven Numerical Weather Prediciton (NWP) training, tools to deploy weather prediction, courses and tutorials about Ai4earth and all publicly available weather prediction checkpoints and APIs.
 
 ## Updates
 
@@ -13,7 +13,7 @@
 
 - Add more paper, datasets, research directions for ai4earth :sparkles:**Contributions Wanted**
 
->  Also check out the project that I am currently working on: [EarthVision](https://github.com/taohan10200/EarthVision/tree/main/nwp) - A deep learniong framwork for Numerical Weather Prediction, Earth System Data cmpression, Precipitation Prediction, Global Wildfire Prediction.)
+>  Also check out the project that I am currently working on: [EarthVision](https://github.com/taohan10200/EarthVision/tree/main/nwp) - A deep learniong framwork for Numerical Weather Prediction, Earth System Data cmpression, Precipitation Prediction)
 
 ## Table of Content
 
@@ -24,9 +24,10 @@
   - [Milestone Papers](#milestone-papers)
   - [Numerical Weather Prediciton](#numerical-weather-prediciton)
   - [Precipitation Prediciotn](#precipitation-prediction)
-  - [Global Wildfire Prediciton](#Global-wildfire-prediction)
-  - [Other Papers](#other-papers)
   - [Ai4earth Benchmark](#llm-leaderboard)
+  - [Other Papers](#other-papers)
+
+   <!-- - [Global Wildfire Prediciton](#Global-wildfire-prediction) -->
   <!-- - [Open LLM](#open-llm)
   - [LLM Training Frameworks](#llm-training-frameworks)
   - [Tools for deploying LLM](#tools-for-deploying-llm)
@@ -37,7 +38,7 @@
   - [Other Useful Resources](#other-useful-resources)
   - [Contributing](#contributing) -->
 
-## Milestone Papers
+## Milestone Papers for NWP
 
 |  Date  |       keywords       |    Institute    | Paper                                                                                                                                                                               | Publication |
 | :-----: | :------------------: | :--------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------: |
@@ -47,13 +48,17 @@
 | 2023-04 |     FengWu     |      Shanghai AILab      | [FengWu: Pushing the Skillful Global Medium-range Weather Forecast beyond 10 Days Lead](https://arxiv.org/abs/2304.02948)|   arxiv<br>  ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2Ff4a62db4dd86129561a16b0a18cc09985580554c%3Ffields%3DcitationCount&query=%24.citationCount&label=citation) |
 | 2023-06 |     FuXi    |      Fudan University      | [FuXi: A cascade machine learning forecasting system for 15-day global weather forecast](e795f62df9ccac2a39e126f95404e5364d55193c) | NAACL <br>![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2Fe795f62df9ccac2a39e126f95404e5364d55193c%3Ffields%3DcitationCount&query=%24.citationCount&label=citation)    |
 
-
-# Global-wildfire-prediction
+# numerical-weather-prediction 
 - [Machine learning–based observation-constrained projections reveal elevated global socioeconomic risks from wildfire,](https://www.nature.com/articles/s41467-022-28853-0) (nature communication, 22/03/2023)
 
+<!-- # Global-wildfire-prediction
+- [Machine learning–based observation-constrained projections reveal elevated global socioeconomic risks from wildfire,](https://www.nature.com/articles/s41467-022-28853-0) (nature communication, 22/03/2023) -->
+
 # precipitation-prediction
-- [PostRainBench](https://arxiv.org/abs/2310.02676) - PostRainBench: A comprehensive benchmark and a new model for - precipitation forecasting.
-- [Anthropogenic fingerprints in daily precipitation revealed by deep learning](https://www.nature.com/articles/s41586-023-06474-x). (nature, 30/08/2023)
+- [NowcastNet](https://www.nature.com/articles/s41586-023-06184-4) Skilful nowcasting of extreme precipitation with NowcastNet. (nature, 07/2023)
+- [PostRainBench](https://arxiv.org/abs/2310.02676) - A comprehensive benchmark and a new model for precipitation forecasting. (arxiv, 10/2023)
+- [Anthropogenic fingerprints in daily precipitation revealed by deep learning](https://www.nature.com/articles/s41586-023-06474-x). (nature, 08/2023)
+- [FuXi-Extreme](https://arxiv.org/abs/2310.19822): Improving extreme rainfall and wind forecasts with diffusion mode. (arxiv, 10/2023)
 
 ## Other Papers
 If you're interested in the field of LLM, you may find the above list of milestone papers helpful to explore its history and state-of-the-art. However, each direction of LLM offers a unique set of insights and contributions, which are essential to understanding the field as a whole. For a detailed list of papers in various subfields, please refer to the following link (it is possible that there are overlaps between different subfields):
