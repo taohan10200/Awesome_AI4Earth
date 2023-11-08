@@ -51,15 +51,18 @@
 # numerical-weather-prediction 
 - [Machine learning–based observation-constrained projections reveal elevated global socioeconomic risks from wildfire,](https://www.nature.com/articles/s41467-022-28853-0) (nature communication, 22/03/2023)
 
-<!-- # Global-wildfire-prediction
-- [Machine learning–based observation-constrained projections reveal elevated global socioeconomic risks from wildfire,](https://www.nature.com/articles/s41467-022-28853-0) (nature communication, 22/03/2023) -->
-
 # precipitation-prediction
 - [NowcastNet](https://www.nature.com/articles/s41586-023-06184-4) Skilful nowcasting of extreme precipitation with NowcastNet. (nature, 07/2023)
 - [PostRainBench](https://arxiv.org/abs/2310.02676) - A comprehensive benchmark and a new model for precipitation forecasting. (arxiv, 10/2023)
 - [Anthropogenic fingerprints in daily precipitation revealed by deep learning](https://www.nature.com/articles/s41586-023-06474-x). (nature, 08/2023)
 - [FuXi-Extreme](https://arxiv.org/abs/2310.19822): Improving extreme rainfall and wind forecasts with diffusion mode. (arxiv, 10/2023)
 
+# Global-wildfire-prediction
+- [The Potential Predictability of Fire Danger Provided by Numerical Weather Prediction](https://journals.ametsoc.org/configurable/content/journals$002fapme$002f55$002f11$002fjamc-d-15-0297.1.xml?t%3Aac=journals%24002fapme%24002f55%24002f11%24002fjamc-d-15-0297.1.xml&tab_body=pdf) (JAMC, 11/2016)
+- [Machine learning–based observation-constrained projections reveal elevated global socioeconomic risks from wildfire,](https://www.nature.com/articles/s41467-022-28853-0) (nature communication, 22/03/2023)
+
+#  ai4earth-benchmark
+[WeatherBench 2](https://arxiv.org/abs/2308.15560): A benchmark for the next generation of data-driven global weather models [[project]](https://github.com/google-research/weatherbench2) [[LeaderBoard]](https://sites.research.google/weatherbench/) (08/2023)
 ## Other Papers
 If you're interested in the field of LLM, you may find the above list of milestone papers helpful to explore its history and state-of-the-art. However, each direction of LLM offers a unique set of insights and contributions, which are essential to understanding the field as a whole. For a detailed list of papers in various subfields, please refer to the following link (it is possible that there are overlaps between different subfields):
 
