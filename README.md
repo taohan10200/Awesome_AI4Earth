@@ -3,19 +3,17 @@
 
 ![](resources/image8.gif)
 
-🔥 Large Language Models(LLM) have taken the ~~NLP community~~ ~~AI community~~ **the Whole World** by storm. Here is a curated list of papers about large language models, especially relating to ChatGPT. It also contains frameworks for LLM training, tools to deploy LLM, courses and tutorials about LLM and all publicly available LLM checkpoints and APIs.
+🔥 Deep learning has been widely explored in the ~~Computer Vision community~~ ~~NLP community~~ ~~AI community~~ **the Whole World** by storm. Here is a curated list of papers about deep learning  methods in Earth System, especially relating to weather prediction. It also contains frameworks for data-driven Numerical Weather Prediciton (NWP) training, tools to deploy weather prediction, courses and tutorials about Ai4earth and all publicly available Weather checkpoints and APIs.
 
 ## Updates
 
-- [2023-07-01] Add some open-source models: Aquila, Chatglm2, Ultra-LM
-- [2023-07-01] Add some deploying tools: vLLM, Text Generation Inference
-- [2023-07-01] Add some great post about LLM from Yao Fu, Lilian and Andrej
+- [2023-11-07] Creat this project, add some big model for atmospherical modeling!
 
 ### ToDos
 
-- Add LLM data (Pretraining data/Instruction Tuning data/Chat data/RLHF data) :sparkles:**Contributions Wanted**
+- Add more paper, datasets, research directions for ai4earth :sparkles:**Contributions Wanted**
 
->  Also check out the project that I am currently working on: [nanoRWKV](https://github.com/Hannibal046/nanoRWKV) - The nanoGPT-style implementation of RWKV Language Model (an RNN with GPT-level LLM performance.)
+>  Also check out the project that I am currently working on: [EarthVision](https://github.com/taohan10200/EarthVision/tree/main/nwp) - A deep learniong framwork for Numerical Weather Prediction, Earth System Data cmpression, Precipitation Prediction, Global Wildfire Prediction.)
 
 ## Table of Content
 
@@ -28,8 +26,8 @@
   - [Precipitation Prediciotn](#precipitation-prediction)
   - [Global Wildfire Prediciton](#Global-wildfire-prediction)
   - [Other Papers](#other-papers)
-  - [LLM Leaderboard](#llm-leaderboard)
-  - [Open LLM](#open-llm)
+  - [Ai4earth Benchmark](#llm-leaderboard)
+  <!-- - [Open LLM](#open-llm)
   - [LLM Training Frameworks](#llm-training-frameworks)
   - [Tools for deploying LLM](#tools-for-deploying-llm)
   - [Tutorials about LLM](#tutorials-about-llm)
@@ -37,16 +35,18 @@
   - [Opinions about LLM](#opinions-about-llm)
   - [Other Awesome Lists](#other-awesome-lists)
   - [Other Useful Resources](#other-useful-resources)
-  - [Contributing](#contributing)
+  - [Contributing](#contributing) -->
 
 ## Milestone Papers
 
 |  Date  |       keywords       |    Institute    | Paper                                                                                                                                                                               | Publication |
 | :-----: | :------------------: | :--------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------: |
-| 2017-06 |     Transformers     |      Google      | [Attention Is All You Need](https://arxiv.org/pdf/1706.03762.pdf)                                                                                                                      |   NeurIPS<br>  ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2F204e3073870fae3d05bcbc2f6a8e263d9b72e776%3Ffields%3DcitationCount&query=%24.citationCount&label=citation) |
-| 2018-06 |       GPT 1.0       |      OpenAI      | [Improving Language Understanding by Generative Pre-Training](https://www.cs.ubc.ca/~amuham01/LING530/papers/radford2018improving.pdf)                                                 |  ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2Fcd18800a0fe0b668a1cc19f2ec95b5003d0a5035%3Ffields%3DcitationCount&query=%24.citationCount&label=citation)          |
-| 2018-10 |         BERT         |      Google      | [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://aclanthology.org/N19-1423.pdf)                                                              |    NAACL <br>![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2Fdf2b0e26d0599ce3e70df8a9da02e51594e0e992%3Ffields%3DcitationCount&query=%24.citationCount&label=citation)    |
-| 2019-02 |       GPT 2.0       |      OpenAI      | [Language Models are Unsupervised Multitask Learners](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)              |     ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2F9405cc0d6169988371b2755e573cc28650d14dfe%3Ffields%3DcitationCount&query=%24.citationCount&label=citation)       |
+| 2022-02 |     FourCastNet     |      Nvidia      | FourCastNet: Accelerating Global High-Resolution Weather Forecasting Using Adaptive Fourier Neural Operators [[paper1](https://arxiv.org/abs/2202.11214)][[paper2](https://arxiv.org/abs/2202.11214)]|   PASC<br>  ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2F286aafc2453a3faeae539e939273938b690fa64a%3Ffields%3DcitationCount&query=%24.citationCount&label=citation)<br>  ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2F10194e9d1d6b8ca8870445c990d4933c1dac1125%3Ffields%3DcitationCount&query=%24.citationCount&label=citation) |
+| 2022-11 |     PanguWeather     |      HuaWei      | Accurate medium-range global weather forecasting with 3D neural networks [[paper1]](https://arxiv.org/pdf/1706.03762.pdf)[[paper2]](https://www.nature.com/articles/s41586-023-06185-3)|   Nature<br>  ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2F4405874879827cacf199d26e8e23e4f547f72a2c%3Ffields%3DcitationCount&query=%24.citationCount&label=citation) |
+| 2022-12 |       GraphCast       |      DeepMind      | [GraphCast: Learning skillful medium-range global weather forecasting](https://arxiv.org/abs/2212.12794)|  ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2F7dff3280beed4cef96265350074498bf142c41e7%3Ffields%3DcitationCount&query=%24.citationCount&label=citation)          |
+| 2023-04 |     FengWu     |      Shanghai AILab      | [FengWu: Pushing the Skillful Global Medium-range Weather Forecast beyond 10 Days Lead](https://arxiv.org/abs/2304.02948)|   arxiv<br>  ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2Ff4a62db4dd86129561a16b0a18cc09985580554c%3Ffields%3DcitationCount&query=%24.citationCount&label=citation) |
+| 2023-06 |     FuXi    |      Fudan University      | [FuXi: A cascade machine learning forecasting system for 15-day global weather forecast](e795f62df9ccac2a39e126f95404e5364d55193c) | NAACL <br>![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2Fe795f62df9ccac2a39e126f95404e5364d55193c%3Ffields%3DcitationCount&query=%24.citationCount&label=citation)    |
+
 
 # Global-wildfire-prediction
 - [Machine learning–based observation-constrained projections reveal elevated global socioeconomic risks from wildfire,](https://www.nature.com/articles/s41467-022-28853-0) (nature communication, 22/03/2023)
