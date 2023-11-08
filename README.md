@@ -135,9 +135,9 @@ The following list makes sure that all LLMs are compared **apples to apples**.
 
 |       Model       | Size |  Architecture  |                                                                                               Access                                                                                               |  Date  | Origin                                                                                                                                       | Model License[^1] |
 | :----------------: | :--: | :-------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----: | -------------------------------------------------------------------------------------------------------------------------------------- | ------------- |
-| PanguWeather | ~740M |  3D Transformer  | [ckpt](https://github.com/198808xc/Pangu-Weather)| 2021-01 | [Paper](https://arxiv.org/pdf/1706.03762.pdf)| [BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) |
-|    GraphCast      | unkonwn |  GNN  |  [ckpt](https://github.com/google-deepmind/graphcast)  | 2021-12 | [Paper](https://arxiv.org/pdf/2112.06905.pdf)| [Apache 2.0](https://github.com/yandex/YaLM-100B/blob/14fa94df2ebbbd1864b81f13978f2bf4af270fcb/LICENSE) & [BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) ||
-
+| PanguWeather | ~740M |  3D Transformer  | [ckpt](https://github.com/198808xc/Pangu-Weather)| 2022-11 | [Paper](https://arxiv.org/pdf/1706.03762.pdf)| [BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) |
+|    GraphCast      | unkonwn |  GNN  |  [ckpt](https://github.com/google-deepmind/graphcast)  | 2022-12 | [Paper](https://arxiv.org/abs/2212.12794)| [Apache 2.0](https://github.com/yandex/YaLM-100B/blob/14fa94df2ebbbd1864b81f13978f2bf4af270fcb/LICENSE) & [BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) |
+|    FuXi      | unkonwn |  U-Transformer  |  [ckpt](https://drive.google.com/drive/folders/1NhrcpkWS6MHzEs3i_lsIaZsADjBrICYV)  | 2023-06 | [Paper](https://arxiv.org/pdf/2306.12873.pdf)| - |
 
 
 The above tables coule be better summarized by this wonderful visualization from this [survey paper](https://arxiv.org/abs/2304.13712):
