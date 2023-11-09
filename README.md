@@ -3,7 +3,7 @@
 
 ![](resources/image8.gif)
 
-🔥 Deep learning has been widely explored in the ~~Computer Vision community~~ ~~NLP community~~ ~~AI community~~ **the Whole World** by storm. Here is a curated list of papers about deep learning  methods in Earth System, especially relating to weather prediction. It also contains frameworks for data-driven Numerical Weather Prediciton (NWP) training, tools to deploy weather prediction, courses and tutorials about Ai4earth and all publicly available weather prediction checkpoints and APIs.
+🔥 Deep learning has been widely explored almost in all research filed. Here is a curated list of papers about deep learning  methods in Earth System, especially relating to weather prediction. It also contains frameworks for data-driven Numerical Weather Prediciton (NWP) training, tools to deploy weather prediction, courses and tutorials about Ai4earth and all publicly available weather prediction checkpoints and APIs.
 
 ## Updates
 
@@ -68,49 +68,16 @@ If you're interested in the field of LLM, you may find the above list of milesto
 
 (:exclamation: **We would greatly appreciate and welcome your contribution to the following list. :exclamation:**)
 
-- [LLM-Analysis](paper_list/evaluation.md)
+- [Ai4earth-NWP-Analysis](paper_list/nwp_analysis.md)
 
-  > Analyse different LLMs in different fields with respect to different abilities
+  > Analyse different NWP models in different fields with respect to different abilities
 
-- [LLM-Acceleration](paper_list/acceleration.md)
+- [Ai4earth-Wildfire](paper_list/Wildfire-Related)
 
-  > Hardware and software acceleration for LLM training and inference
+  > some deeplearning methods in wildfire forecast.
 
-- [LLM-Application](paper_list/application.md)
+- [Ai4earth-Application](paper_list/application.md)
 
-  > Use LLM to do some really cool stuff
-
-- [LLM-Augmentation](paper_list/augmentation.md)
-
-  > Augment LLM in different aspects including faithfulness, expressiveness, domain-specific knowledge etc.
-
-- [LLM-Detection](paper_list/detection.md)
-
-  > Detect LLM-generated text from texts written by humans
-
-- [LLM-Alignment](paper_list/alignment.md)
-
-  > Align LLM with Human Preference
-
-- [Chain-of-Thought](paper_list/chain_of_thougt.md)
-
-  > Chain of thought—a series of intermediate reasoning steps—significantly improves the ability of large language models to perform complex reasoning.
-
-- [In-Context-Learning](paper_list/in_context_learning.md)
-
-  > Large language models (LLMs) demonstrate an in-context learning (ICL) ability, that is, learning from a few examples in the context.
-
-- [Prompt-Learning](paper_list/prompt_learning.md)
-
-  > A Good Prompt is Worth 1,000 Words
-
-- [Instruction-Tuning](paper_list/instruction-tuning.md)
-
-  > Finetune a language model on a collection of tasks described via instructions
-
-- [Retrieval-Augmented Generation](paper_list/Retrieval_Augmented_Generation.md)
-
-  > Retrieval-Augmented Generation (RAG) combines retrieval from a corpus with generative text models to enhance response accuracy using external knowledge.
 
 ## LLM Leaderboard
 <div align=center>
@@ -139,8 +106,6 @@ The following list makes sure that all LLMs are compared **apples to apples**.
 |    GraphCast      | unkonwn |  GNN  |  [ckpt](https://github.com/google-deepmind/graphcast)  | 2022-12 | [Paper](https://arxiv.org/abs/2212.12794)| [Apache 2.0](https://github.com/yandex/YaLM-100B/blob/14fa94df2ebbbd1864b81f13978f2bf4af270fcb/LICENSE) & [BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) |
 |    FuXi      | unkonwn |  U-Transformer  |  [ckpt](https://drive.google.com/drive/folders/1NhrcpkWS6MHzEs3i_lsIaZsADjBrICYV)  | 2023-06 | [Paper](https://arxiv.org/pdf/2306.12873.pdf)| - |
 
-
-The above tables coule be better summarized by this wonderful visualization from this [survey paper](https://arxiv.org/abs/2304.13712):
 
 <p align="center">
 <img width="600" src="https://github.com/Mooler0410/LLMsPracticalGuide/blob/main/imgs/survey-gif-test.gif"/>
@@ -209,7 +174,7 @@ The above tables coule be better summarized by this wonderful visualization from
 - [Aquila](https://github.com/FlagAI-Open/FlagAI/tree/master/examples/Aquila) - 悟道·天鹰语言大模型是首个具备中英双语知识、支持商用许可协议、国内数据合规需求的开源语言大模型。
 - [Mistral](https://mistral.ai/) - Mistral-7B-v0.1 is a small, yet powerful model adaptable to many use-cases including code and 8k sequence length. Apache 2.0 licence.
 
-## LLM Training Frameworks
+## BigModel Training Frameworks
 
 - [DeepSpeed](https://github.com/microsoft/DeepSpeed) - DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective.
 - [Megatron-DeepSpeed](https://github.com/microsoft/Megatron-DeepSpeed) - DeepSpeed version of NVIDIA's Megatron-LM that adds additional support for several features such as MoE model training, Curriculum Learning, 3D Parallelism, and others. 
@@ -301,7 +266,7 @@ The above tables coule be better summarized by this wonderful visualization from
 - [StatQuest] Transformer Neural Networks, ChatGPT's foundation [Link](https://www.youtube.com/watch?v=zxQyTK8quyY)
 - [StatQuest] Decoder-Only Transformers, ChatGPTs specific Transformer [Link](https://www.youtube.com/watch?v=bQ5BoolX9Ag)
 
-## Courses about LLM
+## Courses about Deep Learning
 
 - [DeepLearning.AI] ChatGPT Prompt Engineering for Developers [Homepage](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/)
 - [Princeton] Understanding Large Language Models [Homepage](https://www.cs.princeton.edu/courses/archive/fall22/cos597G/)
@@ -345,43 +310,7 @@ The above tables coule be better summarized by this wonderful visualization from
 ## Other Awesome Lists
 
 - [LLMsPracticalGuide](https://github.com/Mooler0410/LLMsPracticalGuide) - A curated (still actively updated) list of practical guide resources of LLMs
-- [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts) - A collection of prompt examples to be used with the ChatGPT model.
-- [awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh) - A Chinese collection of prompt examples to be used with the ChatGPT model.
-- [Awesome ChatGPT](https://github.com/humanloop/awesome-chatgpt) - Curated list of resources for ChatGPT and GPT-3 from OpenAI.
-- [Chain-of-Thoughts Papers](https://github.com/Timothyxxx/Chain-of-ThoughtsPapers) -  A trend starts from "Chain of Thought Prompting Elicits Reasoning in Large Language Models.
-- [Instruction-Tuning-Papers](https://github.com/SinclairCoder/Instruction-Tuning-Papers) - A trend starts from `Natrural-Instruction` (ACL 2022), `FLAN` (ICLR 2022) and `T0` (ICLR 2022).
-- [LLM Reading List](https://github.com/crazyofapple/Reading_groups/) - A paper & resource list of large language models.
-- [Reasoning using Language Models](https://github.com/atfortes/LM-Reasoning-Papers) - Collection of papers and resources on Reasoning using Language Models.
-- [Chain-of-Thought Hub](https://github.com/FranxYao/chain-of-thought-hub) - Measuring LLMs' Reasoning Performance
-- [Awesome GPT](https://github.com/formulahendry/awesome-gpt) - A curated list of awesome projects and resources related to GPT, ChatGPT, OpenAI, LLM, and more.
-- [Awesome GPT-3](https://github.com/elyase/awesome-gpt3) - a collection of demos and articles about the [OpenAI GPT-3 API](https://openai.com/blog/openai-api/).
-- [Awesome LLM Human Preference Datasets](https://github.com/PolisAI/awesome-llm-human-preference-datasets) - a collection of human preference datasets for LLM instruction tuning, RLHF and evaluation.
-- [RWKV-howto](https://github.com/Hannibal046/RWKV-howto) - possibly useful materials and tutorial for learning RWKV.
-- [ModelEditingPapers](https://github.com/zjunlp/ModelEditingPapers) - A paper & resource list on model editing for large language models.
-- [Awesome LLM Security](https://github.com/corca-ai/awesome-llm-security) - A curation of awesome tools, documents and projects about LLM Security.
-- [Awesome-Align-LLM-Human](https://github.com/GaryYufei/AlignLLMHumanSurvey) - A collection of papers and resources about aligning large language models (LLMs) with human.
-- [Awesome-Code-LLM](https://github.com/huybery/Awesome-Code-LLM) - An awesome and curated list of best code-LLM for research.
-- [Awesome-LLM-Compression](https://github.com/HuangOwen/Awesome-LLM-Compression) - Awesome LLM compression research papers and tools.
-- [Awesome-LLM-Systems](https://github.com/AmberLJC/LLMSys-PaperList) - Awesome LLM systems research papers.
-- [awesome-llm-webapps](https://github.com/snowfort-ai/awesome-llm-webapps) - A collection of open source, actively maintained web apps for LLM applications.
-- [awesome-japanese-llm](https://github.com/llm-jp/awesome-japanese-llm) - 日本語LLMまとめ - Overview of Japanese LLMs
 
-## Other Useful Resources
-
-- [Arize-Phoenix](https://phoenix.arize.com/) - Open-source tool for ML observability that runs in your notebook environment. Monitor and fine tune LLM, CV and Tabular Models.
-- [Emergent Mind](https://www.emergentmind.com) - The latest AI news, curated & explained by GPT-4.
-- [ShareGPT](https://sharegpt.com) - Share your wildest ChatGPT conversations with one click.
-- [Major LLMs + Data Availability](https://docs.google.com/spreadsheets/d/1bmpDdLZxvTCleLGVPgzoMTQ0iDP2-7v7QziPrzPdHyM/edit#gid=0)
-- [500+ Best AI Tools](https://vaulted-polonium-23c.notion.site/500-Best-AI-Tools-e954b36bf688404ababf74a13f98d126)
-- [Cohere Summarize Beta](https://txt.cohere.ai/summarize-beta/) - Introducing Cohere Summarize Beta: A New Endpoint for Text Summarization
-- [chatgpt-wrapper](https://github.com/mmabrouk/chatgpt-wrapper) - ChatGPT Wrapper is an open-source unofficial Python API and CLI that lets you interact with ChatGPT.
-- [Open-evals](https://github.com/open-evals/evals) - A framework extend openai's [Evals](https://github.com/openai/evals) for different language model.
-- [Cursor](https://www.cursor.so) - Write, edit, and chat about your code with a powerful AI.
-- [AutoGPT](https://github.com/Significant-Gravitas/Auto-GPT) - an experimental open-source application showcasing the capabilities of the GPT-4 language model. 
-- [OpenAGI](https://github.com/agiresearch/OpenAGI) - When LLM Meets Domain Experts.
-- [HuggingGPT](https://github.com/microsoft/JARVIS) - Solving AI Tasks with ChatGPT and its Friends in HuggingFace.
-- [EasyEdit](https://github.com/zjunlp/EasyEdit) - An easy-to-use framework to edit large language models.
-- [chatgpt-shroud](https://github.com/guyShilo/chatgpt-shroud) - A Chrome extension for OpenAI's ChatGPT, enhancing user privacy by enabling easy hiding and unhiding of chat history. Ideal for privacy during screen shares.
 ## Contributing
 
 This is an active repository and your contributions are always welcome!

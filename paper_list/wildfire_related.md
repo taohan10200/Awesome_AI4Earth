@@ -1,0 +1,14 @@
+# Wildfire-Related
+
+## Papers
+
+### 2023
+
+- (2023-05) **Data-driven surrogate model with latent data assimilation:
+Application to wildfire forecasting**, Journal of Computational Physics |[paper](https://pdf.sciencedirectassets.com/272570/1-s2.0-S0021999122X00144/1-s2.0-S0021999122003643/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGYaCXVzLWVhc3QtMSJIMEYCIQCKX5tNGqt4zFNCJLFrrDN0%2Fa1jUER8lU%2FmjHduopx4WwIhAKCM44OJZyxQgjmx2BTkLR6DBCh4Bhbr5KZoz%2B3mU%2FxJKrsFCJ%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQBRoMMDU5MDAzNTQ2ODY1IgxG%2FLwXpRDZu9PmwpcqjwXKpxRHzty2pCs1ACgIBDvbMWvqsq5iSyu6cf2TmxLoJGZia1QAGJWUE29gN3OmfCKSTynJp%2F6WgcnJ5aqPAGqfb88ZqpPXI2x4zDf3NqF7yKSE6lhb6nN1Z3Gl%2BHZbTQohOCp%2Ff8WU%2BGRD0zntCBS9A1JYmhOfq67o%2BgSb6OV8%2FayhYClX2PMh7GImuf1QVPNCWtQCcx7ptbiYN2s9URvqMOC%2FV3vvWT8blInS6Lh6ssLR6x6lPVvFTgID%2FWuAVaZg1R3NuDCt8PgvnYZCZAmsIg9XnSloWIiDggGMGopc7wFvnR5ajy5fHVY4KlYt9IFZH0WnDrV0S%2BKy4Gd9aWLXT5p7m36F5IVA%2FED%2B10hVhgvj5cc5BB1TpGhxb36XbcJ3U8kaO8f6dhP8UMuKpISn86irXaWSdH9L97ezJziNyh%2BZRVnw9z9mdG5wFmjDrHRy42nUKu1%2BTSgpSGdYpa8F7Bsvvy2fwJKMecoQLGlF%2FGkUIQ5oMldie0Mq98sJzWb2aYhBbVhWayr4%2F1%2FQjIOD%2FMcE3wIZk%2BqXVoctabehvs3HBTq5XJZJXo%2FubMV%2FBkoId8%2Fy3rDOfTna3EnS9TcYdN7LCC27%2Fh6JGJPy5BNJMOZzaGRnOgxuzgVdq4ad%2BpW2FsbvrAjw73WvyCm0CWcKakDPWlnZBec5sfL2gEG3Umi7ALzZHlS%2FftbZF7MULcbnEUhEUU%2BMjtKlH1dqc3yTSyh1LGasrzk2eyIdOzyMN5v1bQiDEmYVhaGeOBLjQu3VL9VmDFsWew4P%2BTonPL1hJsdnDJGf88I7DL4jB0cnSKWs8s4FIGVDQ2Ossddp77tIjE5D%2F56YZdRzqx3ULGRWKtqD8VhbAoTtpf%2BZ5jruMKChp6oGOrABSjGMbn433eYbmfZ5D23yKuI68eNUzVl7vNisnN34XVfYzXcMGoDpploOI4dEg317gGzo52K6JysG6SEdZpZQeCPsj3Utcbz5R2nFlFuLCJ6EbziL7ONDSclc14%2FusY5trhjvP6my4oSdEHqgcovBRCW9MQ3uEWsCRmkpSMkWhCjYpTcIFXcQLB7zwBegSjZuwVAbdMXPrathFRZHgYX4S4HCmNPjE3SgnZhf7Qi%2FWIM%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20231107T063951Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYSKN3HQMB%2F20231107%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=bf528d757757d75289d3005fcea6d2d86589cdc3a7c8611f4a4cdbe69e04edc0&hash=06be1b455fcfcaa8fae168d1577768d49dbf0c359b5771e059f33cbed9f9fb81&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0021999122003643&tid=spdf-ddad5216-ce74-446f-9eda-733a53d31a9d&sid=0da5d11a2a58024b2f1b9d3-c77d3add6d42gxrqb&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=120b5a5054545d550402&rr=822394dc5f382470&cc=hk) |
+>exclamation: introduce the data assimilation process
+
+### before 2023 
+- (2019-11) A global wildfire dataset for the analysis of fire regimes and fire behaviour, nature scientific data | [paper](https://www.nature.com/articles/s41597-019-0312-2)
+## Useful Resources
+
