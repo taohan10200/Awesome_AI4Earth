@@ -11,7 +11,7 @@
   - [Milestone Papers](#milestone-papers)
   - [Preprocessing](#Preprocessing)
     - [Data Assimilation](#data-assimilation)
-  - [Forcasting](#forecasting)
+  - [Forecasting](#forecasting)
     - [Numerical Weather Prediciton](#numerical-weather-prediciton)
     - [Precipitation Nowcasting](#precipitation-prediction)
   - [Postprocessing](#postprocessing)
