@@ -61,15 +61,17 @@
 | 2022-12 |       GraphCast       |      DeepMind      | [GraphCast: Learning skillful medium-range global weather forecasting](https://arxiv.org/abs/2212.12794)| Science<br> ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2F7dff3280beed4cef96265350074498bf142c41e7%3Ffields%3DcitationCount&query=%24.citationCount&label=citation)          |
 | 2023-04 |     FengWu     |      Shanghai AILab      | [FengWu: Pushing the Skillful Global Medium-range Weather Forecast beyond 10 Days Lead](https://arxiv.org/abs/2304.02948)|   arxiv<br>  ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2Ff4a62db4dd86129561a16b0a18cc09985580554c%3Ffields%3DcitationCount&query=%24.citationCount&label=citation) |
 | 2023-06 |     FuXi    |      Fudan University      | [FuXi: A cascade machine learning forecasting system for 15-day global weather forecast](e795f62df9ccac2a39e126f95404e5364d55193c) | npj <br>![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2Fe795f62df9ccac2a39e126f95404e5364d55193c%3Ffields%3DcitationCount&query=%24.citationCount&label=citation)    |
+# Preprocessing
+## data-assimilation
+- [FengWu-Adas](https://arxiv.org/abs/2312.12462) Towards an End-to-End Artificial Intelligence Driven Global Weather Forecasting System. (arxiv, 12/2023) 
+- [FengWu-4DVar](https://arxiv.org/abs/2312.12455) FengWu-4DVar: Coupling the Data-driven Weather Forecasting Model with 4D Variational Assimilation  (arxiv, 12/2023)
+
 
 # numerical-weather-prediction 
 - [NeuralGCM](https://arxiv.org/abs/2311.07222) Neural General Circulation Models. (arxiv, 11/2023) 
 - [GenCast](https://arxiv.org/pdf/2312.15796.pdf) Diffusion-based ensemble forecasting
 for medium-range weather. (arxiv. 12/2023)
 - [MetNet-3](https://arxiv.org/abs/2306.06079) Deep Learning for Day Forecasts from Sparse Observations. (arxiv, 06/2023) 
-# data-assimilation 
-- [FengWu-Adas](https://arxiv.org/abs/2312.12462) Towards an End-to-End Artificial Intelligence Driven Global Weather Forecasting System. (arxiv, 12/2023) 
-- [FengWu-4DVar](https://arxiv.org/abs/2312.12455) FengWu-4DVar: Coupling the Data-driven Weather Forecasting Model with 4D Variational Assimilation  (arxiv, 12/2023)
 
 # precipitation-prediction
 - [NowcastNet](https://www.nature.com/articles/s41586-023-06184-4) Skilful nowcasting of extreme precipitation with NowcastNet. (nature, 07/2023)
