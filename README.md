@@ -25,7 +25,7 @@
     - [global-wildfire-prediction](#global-wildfire-prediction)
   - [Other Papers](#other-papers)
 
-  - [Ai4earth Benchmark](#ai4earth-leaderboard)
+  - [Ai4earth Leaderboard](#ai4earth-leaderboard)
   - [Dataset](#dataset)
 ## Updates
 
@@ -82,9 +82,15 @@ for medium-range weather. (arxiv. 12/2023)
 ## global-wildfire-prediction
 - [The Potential Predictability of Fire Danger Provided by Numerical Weather Prediction](https://journals.ametsoc.org/configurable/content/journals$002fapme$002f55$002f11$002fjamc-d-15-0297.1.xml?t%3Aac=journals%24002fapme%24002f55%24002f11%24002fjamc-d-15-0297.1.xml&tab_body=pdf) (JAMC, 11/2016)
 - [Machine learning–based observation-constrained projections reveal elevated global socioeconomic risks from wildfire.](https://www.nature.com/articles/s41467-022-28853-0) (nature communication, 22/03/2023)
+# Ai4earth-Leaderboard
+The following list makes sure that all weather forecasting models are compared **apples to apples**.
 
-#  ai4earth-benchmark
 [WeatherBench 2](https://arxiv.org/abs/2308.15560): A benchmark for the next generation of data-driven global weather models [[project]](https://github.com/google-research/weatherbench2) [[LeaderBoard]](https://sites.research.google/weatherbench/) (08/2023)
+
+
+  > You may also find these leaderboards helpful:
+  > - [WeatherBench2 Leaderboard](https://sites.research.google/weatherbench/) - evaluating and comparing various weather forecasting models. displays up-to-date scores of many of the state-of-the-art ML and physics-based models.
+
 ## Other Papers
 If you're interested in the field of AI4Earth, you may find the above list of milestone papers helpful to explore its history and state-of-the-art. However, each direction of AI4Earth offers a unique set of insights and contributions, which are essential to understanding the field as a whole. For a detailed list of papers in various subfields, please refer to the following link (it is possible that there are overlaps between different subfields):
 
@@ -99,16 +105,10 @@ If you're interested in the field of AI4Earth, you may find the above list of mi
 
   > some deeplearning methods in wildfire forecast.
 
-
-## Weather Forecast Leaderboard
-<!-- <div align=center>
-<img src="resources/creepy_llm.jpeg" width="500">
-</div> -->
-
-The following list makes sure that all weather forecasting models are compared **apples to apples**.
-  > You may also find these leaderboards helpful:
-  > - [WeatherBench2 Leaderboard](https://sites.research.google/weatherbench/) - evaluating and comparing various weather forecasting models. displays up-to-date scores of many of the state-of-the-art ML and physics-based models.
-
+# Dataset
+- [Era5 single-level](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels?tab=overview) - ERA5 is the fifth generation ECMWF reanalysis for the global climate and weather for the past 8 decades. Data is available from 1940 onwards. 
+- [Era5 pressure-level](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-pressure-levels?tab=overview) - ERA5 is the fifth generation ECMWF reanalysis for the global climate and weather for the past 8 decades. Data is available from 1940 onwards. 
+- [Era5-Land](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-land?tab=overview) - ERA5-Land is a reanalysis dataset providing a consistent view of the evolution of land variables over several decades at an enhanced resolution compared to ERA5
 
 ### Base Weather Forecasting Models
 
@@ -138,8 +138,6 @@ The following list makes sure that all weather forecasting models are compared *
 
 
 - [Fluid-Earth](https://fluid-earth.byrd.osu.edu/#date=2023-12-27T10%3A00%3A00.000Z&gdata=temperature+at+2+m+above+ground&pdata=wind+at+10+m+above+ground&proj=vertical+perspective&lat=26.81&lon=80.85&zoom=1.50&smode=true&kmode=false&pins=%5B%5D) - An interactive web application that allows you to visualize current and past conditions of Earth's atmosphere and oceans.
-
-
 
 
 ## Other Awesome Lists
