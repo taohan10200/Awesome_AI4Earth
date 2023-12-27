@@ -89,13 +89,13 @@ for medium-range weather. (arxiv. 12/2023)
 If you're interested in the field of AI4Earth, you may find the above list of milestone papers helpful to explore its history and state-of-the-art. However, each direction of AI4Earth offers a unique set of insights and contributions, which are essential to understanding the field as a whole. For a detailed list of papers in various subfields, please refer to the following link (it is possible that there are overlaps between different subfields):
 
 (:exclamation: **We would greatly appreciate and welcome your contribution to the following list. :exclamation:**)
-- [ML-weather-Survey](paper_list/weather_survey.md)
+- [ML-weather-Survey](paper_list/ml_weather_survey.md)
 
 - [Ai4earth-NWP-Analysis](paper_list/nwp_analysis.md)
 
   > Analyse different NWP models in different fields with respect to different abilities
 
-- [Ai4earth-Wildfire](paper_list/Wildfire-Related)
+- [Ai4earth-Wildfire](paper_list/wildfire-related)
 
   > some deeplearning methods in wildfire forecast.
 
