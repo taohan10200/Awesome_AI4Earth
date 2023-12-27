@@ -5,19 +5,7 @@
 
 🔥 Deep learning has been widely explored almost in all research filed. Here is a curated list of papers about deep learning  methods in Earth System, especially relating to weather prediction. It also contains frameworks for data-driven Numerical Weather Prediciton (NWP) training, tools to deploy weather prediction, courses and tutorials about Ai4earth and all publicly available weather prediction checkpoints and APIs.
 
-## Updates
-
-- [2023-11-07] Creat this project, add some big model for atmospherical modeling!
-
-### ToDos
-
-- Add more paper, datasets, research directions for ai4earth :sparkles:**Contributions Wanted**
-
->  Also check out the project that I am currently working on: [EarthVision](https://github.com/taohan10200/EarthVision/tree/main/nwp) - A deep learniong framwork for Numerical Weather Prediction, Earth System Data cmpression, Precipitation Prediction)
-
 ## Table of Content
-
-
 - [Awesome-ai4earth ](#Awesome-ai4earth)
   - [Updates](#updates)
   - [Table of Content](#table-of-content)
@@ -32,11 +20,26 @@
     - [Bias Correction](#bias-correction)
   - [Weather Patters Understanding](#application)
     - [Extreme Weather and Prediction](#extreme-weather-and-prediction)
+      > tropical cyclones, heat wave etc.
     - [Climate phenomena analysis](#climate-phenomena-analysis)
   - [Weather&Climate Related Application](#wweather-cliomate-related-application)
     - [global-wildfire-prediction](#global-wildfire-prediction)
+    - []
   - [Other Papers](#other-papers)
+
   - [Ai4earth Benchmark](#llm-leaderboard)
+  - [Dataset](#dataset)
+## Updates
+
+- [2023-11-07] Creat this project, add some big model for atmospherical modeling!
+
+### ToDos
+
+- Add more paper, datasets, research directions for ai4earth :sparkles:**Contributions Wanted**
+
+>  Also check out the project that I am currently working on: [EarthVision](https://github.com/taohan10200/EarthVision/tree/main/nwp) - A deep learniong framwork for Numerical Weather Prediction, Earth System Data cmpression, Precipitation Prediction)
+
+
 
    <!-- - [Global Wildfire Prediciton](#Global-wildfire-prediction) -->
   <!-- - [Open LLM](#open-llm)
@@ -55,9 +58,9 @@
 | :-----: | :------------------: | :--------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------: |
 | 2022-02 |     FourCastNet     |      Nvidia      | FourCastNet: Accelerating Global High-Resolution Weather Forecasting Using Adaptive Fourier Neural Operators [[paper1](https://arxiv.org/abs/2202.11214)][[paper2](https://arxiv.org/abs/2202.11214)]|   PASC<br>  ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2F286aafc2453a3faeae539e939273938b690fa64a%3Ffields%3DcitationCount&query=%24.citationCount&label=citation)<br>  ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2F10194e9d1d6b8ca8870445c990d4933c1dac1125%3Ffields%3DcitationCount&query=%24.citationCount&label=citation) |
 | 2022-11 |     PanguWeather     |      HuaWei      | Accurate medium-range global weather forecasting with 3D neural networks [[paper1]](https://arxiv.org/pdf/1706.03762.pdf)[[paper2]](https://www.nature.com/articles/s41586-023-06185-3)|   Nature<br>  ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2F4405874879827cacf199d26e8e23e4f547f72a2c%3Ffields%3DcitationCount&query=%24.citationCount&label=citation) |
-| 2022-12 |       GraphCast       |      DeepMind      | [GraphCast: Learning skillful medium-range global weather forecasting](https://arxiv.org/abs/2212.12794)| arxiv<br> ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2F7dff3280beed4cef96265350074498bf142c41e7%3Ffields%3DcitationCount&query=%24.citationCount&label=citation)          |
+| 2022-12 |       GraphCast       |      DeepMind      | [GraphCast: Learning skillful medium-range global weather forecasting](https://arxiv.org/abs/2212.12794)| Science<br> ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2F7dff3280beed4cef96265350074498bf142c41e7%3Ffields%3DcitationCount&query=%24.citationCount&label=citation)          |
 | 2023-04 |     FengWu     |      Shanghai AILab      | [FengWu: Pushing the Skillful Global Medium-range Weather Forecast beyond 10 Days Lead](https://arxiv.org/abs/2304.02948)|   arxiv<br>  ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2Ff4a62db4dd86129561a16b0a18cc09985580554c%3Ffields%3DcitationCount&query=%24.citationCount&label=citation) |
-| 2023-06 |     FuXi    |      Fudan University      | [FuXi: A cascade machine learning forecasting system for 15-day global weather forecast](e795f62df9ccac2a39e126f95404e5364d55193c) | arxiv <br>![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2Fe795f62df9ccac2a39e126f95404e5364d55193c%3Ffields%3DcitationCount&query=%24.citationCount&label=citation)    |
+| 2023-06 |     FuXi    |      Fudan University      | [FuXi: A cascade machine learning forecasting system for 15-day global weather forecast](e795f62df9ccac2a39e126f95404e5364d55193c) | npj <br>![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2Fe795f62df9ccac2a39e126f95404e5364d55193c%3Ffields%3DcitationCount&query=%24.citationCount&label=citation)    |
 
 # numerical-weather-prediction 
 - [NeuralGCM](https://arxiv.org/abs/2311.07222) Neural General Circulation Models. (arxiv, 11/2023) 
