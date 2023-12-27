@@ -114,11 +114,11 @@ If you're interested in the field of LLM, you may find the above list of milesto
 
 
 ## Weather Forecast Leaderboard
-<div align=center>
+<!-- <div align=center>
 <img src="resources/creepy_llm.jpeg" width="500">
-</div>
+</div> -->
 
-The following list makes sure that all LLMs are compared **apples to apples**.
+The following list makes sure that all weather forecasting models are compared **apples to apples**.
   > You may also find these leaderboards helpful:
   > - [WeatherBench2 Leaderboard](https://sites.research.google/weatherbench/) - evaluating and comparing various weather forecasting models. displays up-to-date scores of many of the state-of-the-art ML and physics-based models.
 
@@ -146,9 +146,11 @@ The following list makes sure that all LLMs are compared **apples to apples**.
 - [Alpa](https://alpa.ai/index.html) - Alpa is a system for training and serving large-scale neural networks.
 - [GPT-NeoX](https://github.com/EleutherAI/gpt-neox) - An implementation of model parallel autoregressive transformers on GPUs, based on the DeepSpeed library.
 
-## Tools for deploying LLM
+## Tools for deploying Weather Forecasting Models
 
-- [xx](xx) - A distributed multi-model LLM serving system with web UI and OpenAI-compatible RESTful APIs.
+
+- [Fluid-Earth](https://fluid-earth.byrd.osu.edu/#date=2023-12-27T10%3A00%3A00.000Z&gdata=temperature+at+2+m+above+ground&pdata=wind+at+10+m+above+ground&proj=vertical+perspective&lat=26.81&lon=80.85&zoom=1.50&smode=true&kmode=false&pins=%5B%5D) - An interactive web application that allows you to visualize current and past conditions of Earth's atmosphere and oceans.
+
 
 
 
