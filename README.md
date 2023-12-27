@@ -1,5 +1,5 @@
 
-# Awesome-ai4earth [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome-AI4Earth [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 ![](resources/image8.gif)
 
