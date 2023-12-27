@@ -54,7 +54,7 @@
 - [FengWu-Adas](https://arxiv.org/abs/2312.12462) Towards an End-to-End Artificial Intelligence Driven Global Weather Forecasting System. (arxiv, 12/2023) 
 - [FengWu-4DVar](https://arxiv.org/abs/2312.12455) FengWu-4DVar: Coupling the Data-driven Weather Forecasting Model with 4D Variational Assimilation  (arxiv, 12/2023)
 
-# Forcasting
+# Forecasting
 ## numerical-weather-prediction 
 - [NeuralGCM](https://arxiv.org/abs/2311.07222) Neural General Circulation Models. (arxiv, 11/2023) 
 - [GenCast](https://arxiv.org/pdf/2312.15796.pdf) Diffusion-based ensemble forecasting
@@ -78,7 +78,7 @@ for medium-range weather. (arxiv. 12/2023)
   ## extreme-weather-and-prediction
   - [FuXi-Extreme](https://arxiv.org/abs/2310.19822): Improving extreme rainfall and wind forecasts with diffusion mode. (arxiv, 10/2023)
 
-# weather-cliomate-related-application
+# weather-climate-related-application
 ## global-wildfire-prediction
 - [The Potential Predictability of Fire Danger Provided by Numerical Weather Prediction](https://journals.ametsoc.org/configurable/content/journals$002fapme$002f55$002f11$002fjamc-d-15-0297.1.xml?t%3Aac=journals%24002fapme%24002f55%24002f11%24002fjamc-d-15-0297.1.xml&tab_body=pdf) (JAMC, 11/2016)
 - [Machine learning–based observation-constrained projections reveal elevated global socioeconomic risks from wildfire.](https://www.nature.com/articles/s41467-022-28853-0) (nature communication, 22/03/2023)
@@ -98,8 +98,6 @@ If you're interested in the field of AI4Earth, you may find the above list of mi
 - [Ai4earth-Wildfire](paper_list/Wildfire-Related)
 
   > some deeplearning methods in wildfire forecast.
-
-- [Ai4earth-Application](paper_list/application.md)
 
 
 ## Weather Forecast Leaderboard
