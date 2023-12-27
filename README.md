@@ -8,7 +8,6 @@
 ## Table of Content
 - [Awesome-ai4earth ](#Awesome-ai4earth)
   - [Updates](#updates)
-  - [Table of Content](#table-of-content)
   - [Milestone Papers](#milestone-papers)
   - [Preprocessing](#Preprocessing)
     - [Data Assimilation](#data-assimilation)
@@ -26,7 +25,7 @@
     - [global-wildfire-prediction](#global-wildfire-prediction)
   - [Other Papers](#other-papers)
 
-  - [Ai4earth Benchmark](#llm-leaderboard)
+  - [Ai4earth Benchmark](#ai4earth-leaderboard)
   - [Dataset](#dataset)
 ## Updates
 
@@ -40,16 +39,6 @@
 
 
 
-   <!-- - [Global Wildfire Prediciton](#Global-wildfire-prediction) -->
-  <!-- - [Open LLM](#open-llm)
-  - [LLM Training Frameworks](#llm-training-frameworks)
-  - [Tools for deploying LLM](#tools-for-deploying-llm)
-  - [Tutorials about LLM](#tutorials-about-llm)
-  - [Courses about LLM](#courses-about-llm)
-  - [Opinions about LLM](#opinions-about-llm)
-  - [Other Awesome Lists](#other-awesome-lists)
-  - [Other Useful Resources](#other-useful-resources)
-  - [Contributing](#contributing) -->
 
 ## Milestone Papers for NWP
 
@@ -97,7 +86,7 @@ for medium-range weather. (arxiv. 12/2023)
 #  ai4earth-benchmark
 [WeatherBench 2](https://arxiv.org/abs/2308.15560): A benchmark for the next generation of data-driven global weather models [[project]](https://github.com/google-research/weatherbench2) [[LeaderBoard]](https://sites.research.google/weatherbench/) (08/2023)
 ## Other Papers
-If you're interested in the field of LLM, you may find the above list of milestone papers helpful to explore its history and state-of-the-art. However, each direction of LLM offers a unique set of insights and contributions, which are essential to understanding the field as a whole. For a detailed list of papers in various subfields, please refer to the following link (it is possible that there are overlaps between different subfields):
+If you're interested in the field of AI4Earth, you may find the above list of milestone papers helpful to explore its history and state-of-the-art. However, each direction of AI4Earth offers a unique set of insights and contributions, which are essential to understanding the field as a whole. For a detailed list of papers in various subfields, please refer to the following link (it is possible that there are overlaps between different subfields):
 
 (:exclamation: **We would greatly appreciate and welcome your contribution to the following list. :exclamation:**)
 - [ML-weather-Survey](paper_list/weather_survey.md)
@@ -129,7 +118,8 @@ The following list makes sure that all weather forecasting models are compared *
 | :----------------: | :--: | :-------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----: | -------------------------------------------------------------------------------------------------------------------------------------- | ------------- |
 | PanguWeather | ~740M |  3D Transformer  | [ckpt](https://github.com/198808xc/Pangu-Weather)| 2022-11 | [Paper](https://arxiv.org/pdf/1706.03762.pdf)| [BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) |
 |    GraphCast      | unkonwn |  GNN  |  [ckpt](https://github.com/google-deepmind/graphcast)  | 2022-12 | [Paper](https://arxiv.org/abs/2212.12794)| [Apache 2.0](https://github.com/yandex/YaLM-100B/blob/14fa94df2ebbbd1864b81f13978f2bf4af270fcb/LICENSE) & [BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) |
-|    FuXi      | unkonwn |  U-Transformer  |  [ckpt](https://drive.google.com/drive/folders/1NhrcpkWS6MHzEs3i_lsIaZsADjBrICYV)  | 2023-06 | [Paper](https://arxiv.org/pdf/2306.12873.pdf)| - |
+|    FengWu      | unkonwn |  U-Transformer  |  [ckpt](https://drive.google.com/drive/folders/1NhrcpkWS6MHzEs3i_lsIaZsADjBrICYV)  | 2023-06 | [Paper](https://arxiv.org/pdf/2306.12873.pdf)| - |
+|    FuXi      | unkonwn |  Transformer  |  [ckpt](https://github.com/OpenEarthLab/FengWu)  | 2023-04 | [Paper](https://arxiv.org/abs/2304.02948)| - |
 
 
 
@@ -156,7 +146,7 @@ The following list makes sure that all weather forecasting models are compared *
 
 ## Other Awesome Lists
 
-- [xx](xx) - A curated (still actively updated) list of practical guide resources of earth-related research.
+- [TODO](xx) - A curated (still actively updated) list of practical guide resources of earth-related research.
 
 ## Contributing
 
